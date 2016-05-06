@@ -1,0 +1,1 @@
+Handlebars.registerPartial("partials/template2.hbs");
