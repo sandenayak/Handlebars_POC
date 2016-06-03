@@ -11,7 +11,8 @@ require(['jquery','bootstrap','handlebars','text!partials/template1.tpl.html'],f
 			name:"pv page",
 			version:"R2",
 			team:"Hummers",
-			members:["sandy","manas","vaibhav"]
+			members:["sandy","manas","vaibhav"],
+            showIf: "show"
 		};
 
 

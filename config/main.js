@@ -7,7 +7,7 @@ requirejs.config({
 			deps: ["jquery"],
 			exports:"jQuery.fn.popover"
 		}
-	},	      
+	},
     paths: {
 
         // Vendor libraries paths
@@ -17,15 +17,15 @@ requirejs.config({
         "handlebars":"libs/handlebars",
         "testApp":"js/testApp",
         "addition":"js/addition",
-        "multiplication":"js/multiplication"        
+        "multiplication":"js/multiplication",
+        "helpers":"helpers"
 
 
         // JS file paths
-       
+
     }
 
-    
+
 });
 
-require(["js/index"]);
-
+require(["helpers","js/index"]);
